@@ -1,0 +1,24 @@
+{
+  "name": "campusconnect-workspace",
+  "version": "1.0.0",
+  "description": "CampusConnect — Multi-College Event & Club Management Platform",
+  "scripts": {
+    "dev:server": "cd server && node server.js",
+    "dev:client": "cd client && npm run dev",
+    "seed": "cd server && node scripts/seed.js",
+    "build:client": "cd client && npm run build"
+  },
+  "keywords": [
+    "campusconnect",
+    "college",
+    "events",
+    "clubs",
+    "multi-college",
+    "react",
+    "express",
+    "mongodb"
+  ],
+  "author": "CampusConnect Team",
+  "license": "ISC"
+}
+
